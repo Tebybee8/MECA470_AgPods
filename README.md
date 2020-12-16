@@ -31,7 +31,7 @@ The goal of this project is to create an open hydroponic agriculture platform to
 ## 2. Cable Robot Degrees Of Freedom
 
 By utilizing a 4-cable system robot, we are able to achieve a 6 degrees of freedom. We determined this by using Grubler's formula as seen below:
-
+![GrublersFormula](https://user-images.githubusercontent.com/60329920/102400998-7d50f000-3f97-11eb-92ef-b3b6a524533c.JPG)
 
 When inputting the variables for arms, links, joints, and calculating the DoF of the joints we recieved the spatial degree of freedom of 6. 
 ![Screenshot](AgPodDOF.JPG)
