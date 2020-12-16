@@ -38,7 +38,8 @@ We decided to use a design with 4 towers that anchor the support and joint syste
 
 ## 3. Ineverse Kinematics
 
-The inverse Kinematics of this robot...
+By using only 4 towers with wires in tension to support the end-effector, this mechanism is considered an Incompletely Restrained Parallel Mechanism (IRPM). IRPM systems require at least one dynamical equation added to the unilateral constraints induced by the tensed wires to describe to pose for the end effector. Found below are the hand calculations performed for our system:
+
 
 ## 4. CoppeliaSim Model
 
