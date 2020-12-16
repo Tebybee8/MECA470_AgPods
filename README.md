@@ -34,7 +34,7 @@ By utilizing a 4-cable system robot, we are able to achieve a 6 degrees of freed
 ![GrublersFormula](https://user-images.githubusercontent.com/60329920/102401463-36172f00-3f98-11eb-9b34-4a9785f08670.JPG)
 
 When inputting the variables for arms, links, joints, and calculating the DoF of the joints we recieved the spatial degree of freedom of 6. 
-![Screenshot](AgPodDOF.JPG)
+![AgPodDOF](https://user-images.githubusercontent.com/60329920/102401546-5cd56580-3f98-11eb-9ea6-af8ae86648e0.JPG)
 
 ## 3. Ineverse Kinematics
 
