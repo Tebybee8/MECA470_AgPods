@@ -42,7 +42,10 @@ The inverse Kinematics of this robot...
 
 ## 4. CoppeliaSim Model
 
-The CoppeliaSim Model And explanation of Childscript...
+The CoppeliaSim Model can be found here: 
+[Hydroponic_System_Coppelia](https://github.com/Tebybee8/MECA470_AgPods/blob/main/V5_Hydroponics_System_Coppelia(Squared_Base).ttt)
+
+
 
 ## 5. Appendix 
 
