@@ -21,7 +21,7 @@ AgPods Project
 - [1. Introduction](#1-Introduction)
 - [2. Cable Robot Degrees Of Freedom](#2-Cable-Robot-Degrees-Of-Freedom)
 - [3. Ineverse Kinematics](#3-Ineverse-Kinematics) 
-- [4. Coppelia Simulation](#4-Coppelia-Simulation)
+- [4. CoppeliaSim Model](#4-CoppeliaSim-Model)
 - [5. Appendix](#5-Appendix)
 - [6. References](#6-References)
 
@@ -36,9 +36,9 @@ The Degree of freedom calculations for this robot...
 
 The inverse Kinematics of this robot...
 
-## 4. Coppelia Simulation
+## 4. CoppeliaSim Model
 
-The Coppelia Simulation which proves that our algorithms facilitate the designated system requirements...
+The CoppeliaSim Model And explanation of Childscript...
 
 ## 5. Appendix 
 
