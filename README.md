@@ -5,8 +5,8 @@
 AgPods Project
 <p align = "center">
   Project Members:
-  Travis Bybee,
   Joseph Oliveri,
+  Travis Bybee,
   Nick McConnell
   </p>
   
@@ -26,11 +26,11 @@ AgPods Project
 - [6. References](#6-References)
 
 ## 1. Introduction 
-The purpose of this project is to...
+The goal of this project is to create an open hydroponic agriculture platform to streamline current systems that are inefficient and expensive. By utilizing an automated and low-cost concept, coupled with an AI robotic system, we aim to assist growers by tracking, identifying, and optimizing their growing recipes.
 
 ## 2. Cable Robot Degrees Of Freedom
 
-The Degree of freedom calculations for this robot...
+By utilizing a 4-cable system robot, we are able to achieve a 6 degrees of freedom. We determined this by using Grubler's formula as seen below.
 
 ## 3. Ineverse Kinematics
 
