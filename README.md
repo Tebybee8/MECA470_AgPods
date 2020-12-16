@@ -40,6 +40,10 @@ We decided to use a design with 4 towers that anchor the support and joint syste
 
 By using only 4 towers with wires in tension to support the end-effector, this mechanism is considered an Incompletely Restrained Parallel Mechanism (IRPM). IRPM systems require at least one dynamical equation added to the unilateral constraints induced by the tensed wires to describe to pose for the end effector. Found below are the hand calculations performed for our system:
 
+![MECA 470 Project - Inverse Kinematics-1](https://user-images.githubusercontent.com/60329920/102404500-aa53d180-3f9c-11eb-8c30-c0b7489ccff2.jpg)
+![MECA 470 Project - Inverse Kinematics-2](https://user-images.githubusercontent.com/60329920/102404512-acb62b80-3f9c-11eb-80f2-5be438a3e657.jpg)
+
+We needed to add a thickness to the end-effector and offsets to the joints, which are then subtracted from the P before substituting into the equations.
 
 ## 4. CoppeliaSim Model
 
