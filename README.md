@@ -30,10 +30,10 @@ The goal of this project is to create an open hydroponic agriculture platform to
 
 ## 2. Cable Robot Degrees Of Freedom
 
-By utilizing a 4-cable system robot, we are able to achieve a 6 degrees of freedom. We determined this by using Grubler's formula as seen below:
-![GrublersFormula](https://user-images.githubusercontent.com/60329920/102401463-36172f00-3f98-11eb-9b34-4a9785f08670.JPG)
+We decided to use a design with 4 towers that anchor the support and joint system for the end-effector. The original idea of using a UPU design only provided 2 DoF, so we decided to use a SPS system instead, in which we are able to achieve a 6 degrees of freedom. The SPS system does provide 6 DoF with 3 and 4 towers, however to achieve a larger workspace and more stability we chose to use 4 towers. We solved for the DoF by using Grubler's formula as seen in our work below:
 
-When inputting the variables for arms, links, joints, and calculating the DoF of the joints we recieved the spatial degree of freedom of 6. 
+![GrublersFormula](https://user-images.githubusercontent.com/60329920/102401463-36172f00-3f98-11eb-9b34-4a9785f08670.JPG)
+ 
 ![AgPodDOF](https://user-images.githubusercontent.com/60329920/102401546-5cd56580-3f98-11eb-9ea6-af8ae86648e0.JPG)
 
 ## 3. Ineverse Kinematics
@@ -44,7 +44,6 @@ The inverse Kinematics of this robot...
 
 The CoppeliaSim Model can be found here: 
 [Hydroponic_System_Coppelia](https://github.com/Tebybee8/MECA470_AgPods/blob/main/V5_Hydroponics_System_Coppelia(Squared_Base).ttt)
-
 
 
 ## 5. Appendix 
