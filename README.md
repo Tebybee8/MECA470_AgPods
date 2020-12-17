@@ -51,7 +51,8 @@ The CoppeliaSim Model can be found here:
 [Hydroponic_System_Coppelia](https://github.com/Tebybee8/MECA470_AgPods/blob/main/V5_Hydroponics_System_Coppelia(Squared_Base).ttt)
 
 The CoppeliaSim Child Script can be found here:
-[Child_Script](
+[Child_Script](https://github.com/Tebybee8/MECA470_AgPods/blob/main/ChildScript.lua)
+
 ## 5. Appendix 
 
 A1:
