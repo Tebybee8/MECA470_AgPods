@@ -50,7 +50,8 @@ We needed to add a thickness to the end-effector and offsets to the joints, whic
 The CoppeliaSim Model can be found here: 
 [Hydroponic_System_Coppelia](https://github.com/Tebybee8/MECA470_AgPods/blob/main/V5_Hydroponics_System_Coppelia(Squared_Base).ttt)
 
-
+The CoppeliaSim Child Script can be found here:
+[Child_Script](
 ## 5. Appendix 
 
 A1:
@@ -58,4 +59,5 @@ A1:
 A2:
 
 ## 6. References
-[1]
+[1] Lynch, Kevin, and Frank C. Park. Modern Robotics: Mechanics, Planning, and Control. Cambridge, United Kingdom: Cambridge UP, 2017. Print.
+[2] Niku, Saeed B. Introduction to Robotics Analysis, Control, Applications. Third ed. John Wiley &amp; Sons. Print.
