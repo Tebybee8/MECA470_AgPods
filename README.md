@@ -59,7 +59,9 @@ The CoppeliaSim Child Script can be found here:
 To Connect the ROS API to the CoppeliaSim Model, follow the steps below:
 
 1. Navigate to the ROS-I Training (Kinetic) Network Settings on the Oracle VM Virtual Box Manager and enable Bridged Adapter
+![NetworkSettings](https://user-images.githubusercontent.com/60329920/102727348-10609180-42da-11eb-8d13-91a7b455356e.JPG)
 
+2. Download the API files in the GitHub
 
 ## 6. Appendix 
 
