@@ -22,8 +22,9 @@ AgPods Project
 - [2. Cable Robot Degrees Of Freedom](#2-Cable-Robot-Degrees-Of-Freedom)
 - [3. Ineverse Kinematics](#3-Ineverse-Kinematics) 
 - [4. CoppeliaSim Model](#4-CoppeliaSim-Model)
-- [5. Appendix](#5-Appendix)
-- [6. References](#6-References)
+- [5. ROS API](#5-ROS API)
+- [6. Appendix](#6-Appendix)
+- [7. References](#7-References)
 
 ## 1. Introduction 
 The goal of this project is to create an open hydroponic agriculture platform to streamline current systems that are inefficient and expensive. By utilizing an automated and low-cost concept, coupled with an AI robotic system, we aim to assist growers by tracking, identifying, and optimizing their growing recipes.
@@ -53,12 +54,19 @@ The CoppeliaSim Model can be found here:
 The CoppeliaSim Child Script can be found here:
 [Child_Script](https://github.com/Tebybee8/MECA470_AgPods/blob/main/ChildScript.lua)
 
-## 5. Appendix 
+## 5. ROS API
+
+To Connect the ROS API to the CoppeliaSim Model, follow the steps below:
+
+1. Navigate to the ROS-I Training (Kinetic) Network Settings on the Oracle VM Virtual Box Manager and enable Bridged Adapter
+
+
+## 6. Appendix 
 
 A1:
 
 A2:
 
-## 6. References
+## 7. References
 [1] Lynch, Kevin, and Frank C. Park. Modern Robotics: Mechanics, Planning, and Control. Cambridge, United Kingdom: Cambridge UP, 2017. Print.
 [2] Niku, Saeed B. Introduction to Robotics Analysis, Control, Applications. Third ed. John Wiley &amp; Sons. Print.
