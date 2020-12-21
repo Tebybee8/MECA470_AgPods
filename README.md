@@ -47,11 +47,12 @@ By using only 4 towers with wires in tension to support the end-effector, this m
 We needed to add a thickness to the end-effector and offsets to the joints, which are then subtracted from the P before substituting into the equations.
 
 ## 4. CoppeliaSim Model
+![image](https://user-images.githubusercontent.com/73966901/102735302-e5d10180-42f6-11eb-8e24-fbed19d97bc0.png)
 
-The CoppeliaSim Model can be found here: 
+The CoppeliaSim Model seen above can be found here: 
 [Hydroponic_System_Coppelia](https://github.com/Tebybee8/MECA470_AgPods/blob/main/V5_Hydroponics_System_Coppelia(Squared_Base).ttt)
 
-The CoppeliaSim Child Script can be found here:
+The CoppeliaSim Child Script seen above can be found here:
 [Child_Script](https://github.com/Tebybee8/MECA470_AgPods/blob/main/ChildScript.lua)
 
 ## 5. ROS API
