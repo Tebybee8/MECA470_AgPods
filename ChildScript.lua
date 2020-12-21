@@ -43,9 +43,9 @@ function sysCall_init()
         simUI.setSliderValue(ui,6,1)
         simUI.setSliderValue(ui,8,1)
         simUI.setLabelText(ui,9,string.format("Force on Joint 1 (N): %.2f",PJ1))
-        simUI.setLabelText(ui,10,string.format("Force on Joint 2 (N): %.2f",PJ2))
-        simUI.setLabelText(ui,11,string.format("Force on Joint 3 (N): %.2f",PJ3))
-        simUI.setLabelText(ui,12,string.format("Force on Joint 4 (N): %.2f",PJ4))
+        simUI.setLabelText(ui,10,string.format("Force on Joint 1 (N): %.2f",PJ1))
+        simUI.setLabelText(ui,11,string.format("Force on Joint 1 (N): %.2f",PJ1))
+        simUI.setLabelText(ui,12,string.format("Force on Joint 1 (N): %.2f",PJ1))
     end
     
     --Link 1 Actuator Function
