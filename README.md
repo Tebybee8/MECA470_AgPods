@@ -22,7 +22,7 @@ AgPods Project
 - [2. Cable Robot Degrees Of Freedom](#2-Cable-Robot-Degrees-Of-Freedom)
 - [3. Ineverse Kinematics](#3-Ineverse-Kinematics) 
 - [4. CoppeliaSim Model](#4-CoppeliaSim-Model)
-- [5. ROS API](#5-ROS API)
+- [5. ROS API](#5-ROS-API)
 - [6. Appendix](#6-Appendix)
 - [7. References](#7-References)
 
