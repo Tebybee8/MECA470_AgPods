@@ -61,8 +61,22 @@ To Connect the ROS API to the CoppeliaSim Model, follow the steps below:
 1. Navigate to the ROS-I Training (Kinetic) Network Settings on the Oracle VM Virtual Box Manager and enable Bridged Adapter
 ![NetworkSettings](https://user-images.githubusercontent.com/60329920/102727348-10609180-42da-11eb-8d13-91a7b455356e.JPG)
 
-2. Download the API files in the GitHub
+2. Download the [AgPod_ROS_API](https://github.com/Tebybee8/MECA470_AgPods/blob/main/AgPod_ROS_API.zip) files.
 
+3. To ensure that the user computer is linked with CoppeliaSim, edit the AgBot_Program.py file with your Wireless LAN IPv4 address.
+
+4. Navigate to the directory where you stored the API files and run `python3 AgBot_Program.py` in terminal to begin the API
+
+5. The script will ask for a,b, and c rotation (in degrees) followed by x,y, and z location for the end-effector.
+
+6. Once completed the API will begin the simulation in CoppeliaSim and move to the desired orientation.
+
+#### Please Note: 
+- You must have numpy installed onto your ROS machine.
+- The current RemoteAPI file is configured for Ubuntu 16, so if you are using any other version you must download the RemoteAPI file for that version.
+- The DLL file is different for 32-bit and 64-bit devices.
+- The current scipts are configured to work for pyton3.5 and above. If you are using an older version you must reconfigure the script.
+   
 ## 6. Appendix 
 
 A1:
