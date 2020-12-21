@@ -56,7 +56,7 @@ The CoppeliaSim Child Script can be found here:
 [Child_Script](https://github.com/Tebybee8/MECA470_AgPods/blob/main/ChildScript.lua)
 This Child Scirpt was later implimented into ROS to allow the user to move the end effector to desired locations and orientations.
 
-## 5. ROS API
+## 5. ROS 
 
 To Connect the ROS API to the CoppeliaSim Model, follow the steps below:
 
