@@ -23,7 +23,7 @@ AgPods Project
 - [3. Ineverse Kinematics](#3-Ineverse-Kinematics) 
 - [4. CoppeliaSim Model](#4-CoppeliaSim-Model)
 - [5. ROS API](#5-ROS-API)
-- [6. Appendix](#6-Appendix)
+- [6. Case-to-go-Forward](#6-Case-to-go-Forward)
 - [7. References](#7-References)
 
 ## 1. Introduction 
@@ -52,8 +52,9 @@ We needed to add a thickness to the end-effector and offsets to the joints, whic
 The CoppeliaSim Model seen above can be found here: 
 [Hydroponic_System_Coppelia](https://github.com/Tebybee8/MECA470_AgPods/blob/main/V5_Hydroponics_System_Coppelia(Squared_Base).ttt)
 
-The CoppeliaSim Child Script seen above can be found here:
+The CoppeliaSim Child Script can be found here:
 [Child_Script](https://github.com/Tebybee8/MECA470_AgPods/blob/main/ChildScript.lua)
+This Child Scirpt was later implimented into ROS to allow the user to move the end effector to desired locations and orientations.
 
 ## 5. ROS API
 
@@ -78,11 +79,13 @@ To Connect the ROS API to the CoppeliaSim Model, follow the steps below:
 - The DLL file is different for 32-bit and 64-bit devices.
 - The current scipts are configured to work for pyton3.5 and above. If you are using an older version you must reconfigure the script.
    
-## 6. Appendix 
+## 6. Case to go Forward
 
-A1:
+This system currently allows the user to move the robot's end-effector to a desired location with a defined orientation through the provided ROS workspace. Future implimentations of a vision system would allow the AgPod to detect where the desired plants are and move to their locations in real time. This vision system could allow the user to place the plants in various orientations without having issues within the systems operations. 
 
-A2:
+Another consideration in the future versions of this system would be to add an end effector to the plate we currently have in our model. This end effector could be a complient gripper to pick and place seeds or actual vegetables from the plants. A pneumatic actuator would most likely have to be incorporated into the system in order to meet the functionality of the end effector. This end effector could also incorporate a tube that connects to a nearby water in order to water the plants when desired. A schedule of these watering operations could be outlined by the user and the system would have to move the end effector over those plants before actuating a pump in the watertank to supply water at the tip of the end effector. 
+
+Overall, this system has proved as a proper foundation for creating an autonomous agricultural cell that can be implimented in a variety of enviornments.
 
 ## 7. References
 [1] Lynch, Kevin, and Frank C. Park. Modern Robotics: Mechanics, Planning, and Control. Cambridge, United Kingdom: Cambridge UP, 2017. Print.  
