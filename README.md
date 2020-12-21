@@ -84,5 +84,5 @@ A1:
 A2:
 
 ## 7. References
-[1] Lynch, Kevin, and Frank C. Park. Modern Robotics: Mechanics, Planning, and Control. Cambridge, United Kingdom: Cambridge UP, 2017. Print.
-[2] Niku, Saeed B. Introduction to Robotics Analysis, Control, Applications. Third ed. John Wiley &amp; Sons. Print.
+[1] Lynch, Kevin, and Frank C. Park. Modern Robotics: Mechanics, Planning, and Control. Cambridge, United Kingdom: Cambridge UP, 2017. Print.  
+[2] Niku, Saeed B. Introduction to Robotics Analysis, Control, Applications. Third ed. John Wiley &amp; Sons. Print.  
