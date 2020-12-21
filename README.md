@@ -67,7 +67,7 @@ To Connect the ROS API to the CoppeliaSim Model, follow the steps below:
 
 4. Navigate to the directory where you stored the API files and run `python3 AgBot_Program.py` in terminal to begin the API
 
-5. The script will ask for a,b, and c rotation (in degrees) followed by x,y, and z location for the end-effector.
+5. The script will ask for a,b, and c rotation (in degrees) followed by x,y, and z (in meters) location for the end-effector.
 
 6. Once completed the API will begin the simulation in CoppeliaSim and move to the desired orientation.
 
