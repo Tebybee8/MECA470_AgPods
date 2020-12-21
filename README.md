@@ -56,7 +56,7 @@ The CoppeliaSim Child Script can be found here:
 [Child_Script](https://github.com/Tebybee8/MECA470_AgPods/blob/main/ChildScript.lua)
 This Child Scirpt was later implimented into ROS to allow the user to move the end effector to desired locations and orientations.
 
-## 5. ROS 
+## 5. ROS API
 
 To Connect the ROS API to the CoppeliaSim Model, follow the steps below:
 
@@ -69,7 +69,7 @@ To Connect the ROS API to the CoppeliaSim Model, follow the steps below:
 
 4. Once both ROS and CoppeliaSim are open and running, navigate to the directory where you stored the API files and run `python3 AgBot_Program.py` in terminal to begin the API
 
-5. The script will ask for a,b, and c rotation (in degrees) followed by x,y, and z (in meters) location for the end-effector.
+5. The script will ask for a, b, and c rotation (in degrees) followed by x,y, and z (in meters) location for the end-effector.
 
 6. Once completed the API will begin the simulation in CoppeliaSim and move to the desired orientation.
 
